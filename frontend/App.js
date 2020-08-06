@@ -2,10 +2,14 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Details from './src/components/Details'
+import Cabs_list from './src/components/cabs_list'
 
 export default function App() {
   return (
-    <Details />
+    <View>
+      <Details />
+      <Cabs_list />
+    </View>
   );
 }
 
